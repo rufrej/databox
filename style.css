@@ -379,4 +379,25 @@ display: flex;
                 height: 525px;
                 margin-left: 100px;
             }
+
+
+
+            .feature__title-top{
+                font-family: Roboto;
+font-size: 36px;
+font-weight: 400;
+line-height: 42.19px;
+text-align: center;
+margin-top: 167px;
+
+            }
+
+            .feature__title-bottom{
+                font-family: Roboto;
+font-size: 36px;
+font-weight: 400;
+line-height: 42.19px;
+text-align: center;
+
+            }
   
