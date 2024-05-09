@@ -19,17 +19,17 @@ button{
     padding: 16px,0;
 }
 .container{
-    max-width: 1088px;
+    max-width: 1064px;
     margin: auto;
-    padding: 0 16px;
+    
     
 
 }
-.header__container{
+.header____container{
     display: flex;
     align-items: center;
 }
-.nav__list{
+.nav____list{
     display: flex;
     gap: 28px;
 }
@@ -49,30 +49,31 @@ margin-right: 370px;
 .intro{
     background: #F0EFEB;
 }
-.intro_text-block{
+.intro__text-block{
     padding: 90px 0;
     margin-bottom: 26px;
 
 }
-.intro_container{
+.intro__container{
+    max-width: 1064;
     display: flex;
 }
-.intro_title{
+.intro__title{
     font-size: 60px;
     line-height: 70px;
     margin-bottom: 42px;
 }
-.intro_image{
-    width: 599px;
-    height: 521px;
+.intro__image{
+    width: 500px;
+    height: 488px;
 }
-.intro_text{
+.intro__text{
     width: 481px;
 
     font-size: 24px;
     line-height: 28px;
 }
-.intro_button{
+.intro__button{
     color:  #FFFFFF;
     background-color: #000000;
     font-size: 17px;
@@ -83,321 +84,446 @@ margin-right: 370px;
 cursor: pointer;
 }
 
-.about-guides_block{
-   max-width: 1280px;
-    max-height: 1183.77px;
-    margin: auto;
-    margin-bottom: 90px;
+ .about-guides__text-block{
+    margin-top: 59.8px;
+    margin-bottom: 87px;   
+ }
 
-  
-
-}
-
-.about-guides_text-block{
-    width: 1064px;
-    height: 209px;
-   margin: 60px 108px 915px 108px;
-   
-}
-.about-guides_title{
+ .about-guides__title{
     font-size: 36px;
     font-weight: 700;
     line-height: 42.19px;
     margin: auto;
     text-align: center;
     
+ }
+
+ .about-guides__text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 27px;
+    width: 632px;
+    height: 69px;
+    margin-bottom: 47px;
+ }
+
+ .about-guides__text-button{
+    justify-content: center;
+    width: 371px;
+    height: 23px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .about-guides__info-sellers{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 87px;
+    text-align: center;
+ }
+
+
+ .about-guides__block{
+    display:flex;
+    justify-content: space-around;
+ }
+
+ .guide-french-culture__container{
+    height: 585px;
+    width: 315;
+    margin-bottom: 189px;
     
+ }
 
-    
-     
-}
-.about-guides_text{
-font-size: 20px;
-font-weight: 400;
-line-height: 23.44px;
-text-align: center;
-margin-top: 27px;
-width: 632px;
-height: 69px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 47px;
+ .guide-french-culture__icon{
+    width: 309px;
+height: 422px;
 
 
-}
-.about-guides_text-block{
-    margin-top: 47px ;
-    margin-bottom: 1px;
-   text-align: center;
-   font-weight: 400;
-   font-size: 20px;
-   line-height: 23px;
-}
-.container guides{
-    width: 1064px;
-height: 729.27px;
-margin-top: 355.5px;
+ }
 
-}
-.guides_title{
-font-size: 36px;
-font-weight: 700;
-line-height: 42.19px;
-text-align: center;
-margin-top: 87px;
-margin-bottom: 51px;
+ .guide-french-culture__info{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.92px;
+    width: 156px;
+    height: 60px;
+    margin-top: 27px;
+    margin-bottom: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+ }
 
-}
-.guides_list{
-    display: flex;
-    gap: 61px;
-}
-.GuideOne_info{
- width: 156px;
-height: 60px;
-margin: 27px 79px;
-font-size: 17px;
-font-weight: 700;
-line-height: 19.92px;
-text-align: center;
+ .guide-french-culture__price{
+    font-size: 17px;
+    font-weight: 400; 
+    margin-top: 17px ;
+    margin-bottom: 10px;
+    width: 73px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+ }
 
-
-
-}
-.GuideOne_price{
-font-size: 17px;
-font-weight: 400;
-line-height: 19.92px;
-margin-top: 17px ;
-margin-left: 120px;
-margin-right: 120px ;
-margin-bottom: 10px;
-
-}
-
-.GuideOne_link{
+ .guide-french-culture__link{
     width: 92px;
-height: 20px;
-margin-top: 11px;
-margin-left: 111px;
-margin-right: 111px;
-font-weight: 700;
-font-size: 17px;
-color: #000000;
+    height: 20px;
+    padding-top: 11px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #000000;
+    margin-left: 111px;
+    margin-right: 111px;
+    
+ }
 
 
-}
+ .guide-french-people__container{
+    height: 585px;
+    width: 315;
+    
+ }
 
-.GuideTwo_info{
+ .guide-french-people__icon{
+    width: 309px;
+height: 422px;
+
+
+ }
+
+ .guide-french-people__info{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.92px;
     width: 156px;
-   height: 60px;
-   margin: 27px 79px;
-   font-size: 17px;
-   font-weight: 700;
-   line-height: 19.92px;
-   text-align: center;
-   
-   
-   
-   }
-   .GuideTwo_price{
-   font-size: 17px;
-   font-weight: 400;
-   line-height: 19.92px;
-   margin-top: 17px ;
-   margin-left: 120px;
-   margin-right: 120px ;
-   margin-bottom: 10px;
-   
-   }
-   
-   .GuideTwo_link{
-       width: 92px;
-   height: 20px;
-   margin-top: 11px;
-   margin-left: 111px;
-   margin-right: 111px;
-   font-weight: 700;
-   font-size: 17px;
-   color: #000000;
-   
-   
-   }
-   .GuideThree_info{
-    width: 156px;
-   height: 60px;
-   margin: 27px 79px;
-   font-size: 17px;
-   font-weight: 700;
-   line-height: 19.92px;
-   text-align: center;
-   
-   
-   
-   }
-   .GuideThree_price{
-   font-size: 17px;
-   font-weight: 400;
-   line-height: 19.92px;
-   margin-top: 17px ;
-   margin-left: 120px;
-   margin-right: 120px ;
-   margin-bottom: 10px;
-   
-   }
-   
-   .GuideThree_link{
-       width: 92px;
-   height: 20px;
-   margin-top: 11px;
-   margin-left: 111px;
-   margin-right: 111px;
-   font-weight: 700;
-   font-size: 17px;
-   color: #000000;
-   
-   
-   }
-   .GuideTwo_decsrible-block{
-    width: 1440px;
-height: 652px;
-background-color: #CCCCCC4D;
+    height: 60px;
+    margin-top: 27px;
+    margin-bottom: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+ }
 
-  }
-  .GuideTwo_decsrible-container{
+ .guide-french-people__price{
+    font-size: 17px;
+    font-weight: 400; 
+    margin-top: 17px ;
+    margin-bottom: 10px;
+    width: 73px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .guide-french-people__link{
+    width: 92px;
+    height: 20px;
+    padding-top: 11px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #000000;
+    margin-left: 111px;
+    margin-right: 111px;
+    
+ }
+
+
+
+ .guide-german-culture__container{
+    height: 585px;
+    width: 315;
+    
+ }
+
+ .guide-germab-culture__icon{
+    width: 309px;
+height: 422px;
+
+
+ }
+
+ .guide-german-culture__info{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 19.92px;
+    width: 156px;
+    height: 60px;
+    margin-top: 27px;
+    margin-bottom: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+ }
+
+ .guide-german-culture__price{
+    font-size: 17px;
+    font-weight: 400; 
+    margin-top: 17px ;
+    margin-bottom: 10px;
+    width: 73px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .guide-german-culture__link{
+    width: 92px;
+    height: 20px;
+    padding-top: 11px;
+    font-weight: 700;
+    font-size: 17px;
+    color: #000000;
+    margin-left: 111px;
+    margin-right: 111px;
+   
+ } 
+
+ .guide-french-people__decsribe{
+    background: #CCCCCC4D;
+    padding: 75px 188px 50px 88px;
+ 
+ }
+
+ .guide-french-people__decsribe-container{
     width: 1164px;
-height: 525.13px;
-padding: 75px ;
-column-gap: 50px;
-display: flex;
+    height: 525.13px;
+    display: flex;
+    column-gap: 50px;
+    padding-left: 100px;
+   } 
+ 
+   .guide-french-people__decsribe-icon{
+    width: 385px;
+    height: 525px;
+ }
 
+ .guide-french-people__text-block{
+    width: 532px;
+    height: 510.88px;
+    padding-right: 131px;
 
+ }
 
-  }
-  .GuideTwo_decsribe-title{
+ .guide-french-people__title{
     margin-top: 62px;
     font-weight: 700;
     font-size: 36px;
     margin-bottom:31px ;
-  }
-  .GuideTwo_decsribe-text{
+ }
+
+ .guide-french-people__text{
     width: 489px;
     height: 252px;
     font-weight: 400;
     font-size: 36px;
     margin-bottom:40px ;
-  }
-  .GuideTwo_decsribe-shop-link{
+    line-height: 42px;
+ }
+
+.guide-french-people__shop-link{
     font-weight: 700;
     font-size: 17;
-    color: #000000;}
+    color: #000000;
+}
 
-    .GuideTwo_describe-img{
-        width: 385px;
-        height: 525px;
-        margin-left: 100px;
-    }
 
-    .GuideFour_decsrible-block{
-        width: 1440px;
-    height: 652px;
-    background-color: #CCCCCC99;
-    
-      }
-      .GuideFour_decsrible-container{
-        width: 1164px;
+
+.guide-moroccan-culture__decsribe{
+    background: #CCCCCC99;
+    padding: 75px 188px 50px 88px;
+ 
+ }
+
+ .guide-moroccan-culture__decsribe-container{
+    width: 1164px;
     height: 525.13px;
-    padding: 75px ;
-    column-gap: 50px;
     display: flex;
+    column-gap: 50px;
+    padding-left: 197px;
+   } 
+ 
+   .guide-moroccan-culture__decsribe-icon{
+    width: 385px;
+    height: 525px;
+ }
+
+ .guide-moroccan-culture__text-block{
+    width: 532px;
+    height: 510.88px;
+    text-align: end;
     
+
+ }
+
+ .guide-moroccan-culture__title{
+    margin-top: 62px;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom:31px ;
+    text-align: end;
+ }
+
+ .guide-moroccan-culture__text{
+    width: 513px;
+    height: 252px;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom:40px ;
+    text-align: end;
+    margin-left: 25px;
+ }
+
+.guide-moroccan-culture__shop-link{
+    font-weight: 700;
+    font-size: 17;
+    color: #000000;
     
-    
-      }
-      .GuideFour_decsribe-title{
-        margin-top: 62px;
-        font-weight: 700;
-        font-size: 36px;
-        margin-bottom:31px ;
-      }
-      .GuideFour_decsribe-text{
-        width: 489px;
-        height: 252px;
-        font-weight: 400;
-        font-size: 36px;
-        margin-bottom:40px ;
-      }
-      .GuideFour_decsribe-shop-link{
-        font-weight: 700;
-        font-size: 17;
-        color: #000000;}
-    
-        .GuideFour_describe-img{
-            width: 385px;
-            height: 525px;
-            margin-left: 100px;
-        }
+}
 
 
+.guide-german-power__decsribe{
+    background: #CCCCCC4D;
+    padding: 75px 188px 50px 88px;
+ 
+ }
 
-        .GuideFive_decsrible-block{
-            width: 1440px;
-        height: 652px;
-        background-color: #CCCCCC4D;
-        
-          }
-          .GuideFive_decsrible-container{
-            width: 1164px;
-        height: 525.13px;
-        padding: 75px ;
-        column-gap: 50px;
-        display: flex;
-        
-        
-        
-          }
-          .GuideFive_decsribe-title{
-            margin-top: 62px;
-            font-weight: 700;
-            font-size: 36px;
-            margin-bottom:31px ;
-          }
-          .GuideFive_decsribe-text{
-            width: 489px;
-            height: 252px;
-            font-weight: 400;
-            font-size: 36px;
-            margin-bottom:40px ;
-          }
-          .GuideFive_decsribe-shop-link{
-            font-weight: 700;
-            font-size: 17;
-            color: #000000;}
-        
-            .GuideFive_describe-img{
-                width: 385px;
-                height: 525px;
-                margin-left: 100px;
-            }
+ .guide-german-power__decsribe-container{
+    width: 1164px;
+    height: 525.13px;
+    display: flex;
+    column-gap: 50px;
+    padding-left: 100px;
+   } 
+ 
+   .guide-german-power__decsribe-icon{
+    width: 385px;
+    height: 525px;
+ }
+
+ .guide-german-power__text-block{
+    width: 532px;
+    height: 510.88px;
+    padding-right: 131px;
+
+ }
+
+ .guide-german-power__title{
+    margin-top: 62px;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom:31px ;
+ }
+
+ .guide-german-power__text{
+    width: 489px;
+    height: 252px;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom:40px ;
+    line-height: 42px;
+ }
+
+.guide-german-power__shop-link{
+    font-weight: 700;
+    font-size: 17;
+    color: #000000;
+}
+
+.features_container{
+    width: 1280px;
+    height: 709px;
+
+}
 
 
+.features__title-container{
+    padding-top: 189px;
+    text-align: center;
+}
 
-            .feature__title-top{
-                font-family: Roboto;
+.features__title{
 font-size: 36px;
 font-weight: 400;
 line-height: 42.19px;
-text-align: center;
-margin-top: 167px;
+margin-bottom: 69px;
+}
 
-            }
+.unique{
+    width: 1088px;
+    height: 555px;
+    margin-top: 69px;
+    flex-wrap: wrap;
+    display: flex;
+    column-gap: 24px;
+    margin: auto;
+    justify-content: center;
+ 
 
-            .feature__title-bottom{
-                font-family: Roboto;
-font-size: 36px;
-font-weight: 400;
-line-height: 42.19px;
-text-align: center;
+}
 
-            }
-  
+.unique__container{
+    max-width: 338.66px;
+    max-height: 167.5px;
+    width: 100%;
+
+
+}
+
+.circle{
+	 
+	 -moz-border-radius: 50px;
+	 -webkit-border-radius: 50px;
+	 border-radius: 50px;
+     width: 70px;
+     height: 70px;
+     margin: auto;
+     
+
+}
+
+.unique__text{
+ font-size: 30px;
+ font-weight: 700;
+ line-height: 35.16px;
+ text-align: center;
+ margin-top: 26px;
+
+}
+
+.written__circle{
+    background: #21F7EC;
+}
+
+.packed__circle{
+    background: #33D3BC;
+}
+
+.interviews__circle{
+   background: #18A5C6;
+}
+
+.key-facts__circle{
+   background: #D38F62;
+
+}
+
+.a-concise__circle{
+   background: #F94C43;
+}
+ 
+.instant__circle{
+   background: #D399FF;
+
+}
+
+
+    
+
+
+ 
+ 
