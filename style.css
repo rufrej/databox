@@ -6,8 +6,9 @@
 
 }
 body{
-    width: 1440px;
-    height: 6365.83px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 ul{
     list-style: none;
@@ -21,15 +22,12 @@ button{
 .container{
     max-width: 1064px;
     margin: auto;
-    
-    
-
 }
-.header____container{
+.header__container{
     display: flex;
     align-items: center;
 }
-.nav____list{
+.nav__list{
     display: flex;
     gap: 28px;
 }
@@ -110,12 +108,13 @@ cursor: pointer;
     margin-bottom: 47px;
  }
 
- .about-guides__text-button{
+ .about-guides__text-bottom{
     justify-content: center;
     width: 371px;
     height: 23px;
     margin-left: auto;
     margin-right: auto;
+    
  }
 
  .about-guides__info-sellers{
@@ -140,8 +139,7 @@ cursor: pointer;
 
  .guide-french-culture__icon{
     width: 309px;
-height: 422px;
-
+    height: 422px;
 
  }
 
@@ -183,8 +181,8 @@ height: 422px;
 
 
  .guide-french-people__container{
-    height: 585px;
-    width: 315;
+    max-height: 585px;
+    max-width: 315;
     
  }
 
@@ -234,8 +232,8 @@ height: 422px;
 
 
  .guide-german-culture__container{
-    height: 585px;
-    width: 315;
+    max-height: 585px;
+    max-width: 315;
     
  }
 
@@ -290,8 +288,8 @@ height: 422px;
  }
 
  .guide-french-people__decsribe-container{
-    width: 1164px;
-    height: 525.13px;
+   max-width: 1164px;
+   max-height: 525.13px;
     display: flex;
     column-gap: 50px;
     padding-left: 100px;
@@ -340,8 +338,8 @@ height: 422px;
  }
 
  .guide-moroccan-culture__decsribe-container{
-    width: 1164px;
-    height: 525.13px;
+   max-width: 1164px;
+   max-height: 525.13px;
     display: flex;
     column-gap: 50px;
     padding-left: 197px;
@@ -393,8 +391,8 @@ height: 422px;
  }
 
  .guide-german-power__decsribe-container{
-    width: 1164px;
-    height: 525.13px;
+   max-width: 1164px;
+   max-height: 525.13px;
     display: flex;
     column-gap: 50px;
     padding-left: 100px;
@@ -435,8 +433,8 @@ height: 422px;
 }
 
 .features_container{
-    width: 1280px;
-    height: 709px;
+   max-width: 1280px;
+   max-height: 709px;
 
 }
 
@@ -518,12 +516,137 @@ margin-bottom: 69px;
  
 .instant__circle{
    background: #D399FF;
+}
 
+.interviews__title{
+font-size: 36px;
+font-weight: 700;
+line-height: 42.19px;
+text-align: center;
+margin-top: 52px;
+margin-bottom: 102px;
+}
+
+.interviews{
+   width: 100%;
+   height: 100%;
+   display: flex;
+   column-gap: 100px;
+   justify-content: center;
+   background-image: linear-gradient( #FFFFFF, #F0F0F0);
+   /* background-image: url( ./imageThalby/background.png); */
+   padding-bottom: 51px  ;
+}
+
+.interviews__block{
+   max-width: 288px;
+   max-height: 617px;
+   display: flex;
+   flex-direction: column;
+}
+
+.interviews__text{
+font-size: 22px;
+font-weight: 700;
+line-height: 25.78px;
+letter-spacing: 0.6px;
+text-align: center;
+margin-top: 35px;
+}
+
+.interviews__info{
+font-size: 19px;
+font-weight: 400;
+line-height: 22.27px;
+text-align: center;
+margin-top: 45px;
+}
+
+.interviews__link{
+font-size: 18px;
+font-weight: 700;
+line-height: 21.09px;
+text-align: center;
+color: #000000;
+margin-top: 44px;
+
+}
+    
+.footer{
+   background: #020202;    
+   display: flex;   
 }
 
 
-    
 
+.thalby-logo-footer{
+   margin-top: 51px;
+   margin-left: 173px;
+}
 
- 
- 
+.footer__social__icons{
+   display: flex;
+   column-gap: 20px;
+   margin-left: 173px;
+   margin-top: 37px; 
+   margin-right:  375px;
+}
+
+.©{
+font-size: 14px;
+font-weight: 400;
+line-height: 23.1px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 91px ;
+margin-right: 107px;
+align-self: flex-end;
+margin-bottom: 16px;
+margin-top: 263px;
+}
+
+.about__block{
+   max-width:165px ;
+   max-height: 180px; 
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   gap: 21px; 
+   margin-bottom:60px ;
+   font-size: 14px;
+    font-weight: 400;
+   line-height: 21px;
+}
+
+.about__title{
+   margin-bottom:14px ;
+}
+
+.about__block__link{
+   text-decoration: none;
+   color: #FFFFFF;
+}
+
+.contact__block {
+   display: flex;
+   flex-direction: column;
+   margin-left: 72px;
+   margin-top: 50.8px;
+   gap: 12px;
+}
+.contact__title {
+   margin-bottom: 23px ;
+   color: #FFFFFF;
+ font-size: 14px;
+ font-weight: 400;
+ line-height: 23.1px;
+
+}
+
+.contact__link{
+   color: #FFFFFF;
+   text-decoration: none;
+   font-weight: 400px;
+   Size: 14px;
+   line-height: 21px;
+}
