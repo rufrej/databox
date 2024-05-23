@@ -1,109 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ThalbyMe</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thalby</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="container header__container">
-        <nav class="nav">  
-            <div>
-            <ul class="nav__list">
-                <li>Shop</li>
-                <li>Collections</li>
-                <li>Try a Free Guide</li>
-                <li>Stories</li>
-            </ul>
+  <header class="header">
+    <div class="container header__container">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li>
+            Shop
+          </li>
+          <li>
+            Collections
+          </li>
+          <li>
+            Try a Free Guide
+          </li>
+          <li>
+            Stories
+          </li>
+        </ul>
+      </nav>
+      <img src="./imageThalby/Logo.svg" alt="logo" class="logo">
+        <div class="header__icons-wrapper">
+          <a href="/">
+            <img src="./imageThalby/headerIcons/InstIcon.svg" alt="inst" class="header__icon">
+          </a>
+          <a href="/">
+            <img src="./imageThalby/headerIcons/SearchIcon.svg" alt="seacrh" class="header__icon">
+          </a>
+          <a href="/">
+            <img src="./imageThalby/headerIcons/StoreIcon.svg" alt="store" class="header__icon">
+          </a>
+        </div>
+      </div>
     </div>
-    </nav>
-    <img src="./imageThalby/Logo.svg" alt="logo" class="logo">
-        <div>
-          <img src="./imageThalby/headerIcons/InstIcon.svg" alt="inst">  
-          <img src="./imageThalby/headerIcons/SearchIcon.svg" alt="search">  
-          <img src="./imageThalby/headerIcons/StoreIcon.svg" alt="store">  
-        </div>
-        
-    </header>
-<main>
+  </header>
+
+  <main>
     <section class="intro">
-        <div class="container intro__container">
-            <article class="intro__text-block">
-                <h1 class="intro__title">Fall deeper in love with <br>humanity.</h1>
-                <p class="intro__text">Get to know the world through our concise, informative and inspiring guides.</p>
-                <button class="intro__button">Shop Now</button>
-            </article>
-            <img class="intro__image" src="./imageThalby/IntroductionImage.png" alt="divices">
-        </div>
+      <div class="container intro__container">
+        <article class="intro__text-block">
+          <h1 class="intro__title">
+            Fall deeper in love with 
+            <br>
+            humanity.
+          </h1>
+          <p class="intro__text">Get to know the world through our concise, informative and inspiring guides.</p>
+          <button class="intro__button">Shop Now</button>
+        </article>
+        <img class="intro__image"  src="./imageThalby/IntroductionImage.png" alt="devices">
+      </div>
     </section>
-    <section class="about-guides__info">
+    <article class="about-guides__info">
         <div class=" container about-guides__text-block">   
          <h2 class="about-guides__title">Our guides explain countries and cultures.</h2>        
          <p class="about-guides__text">Are you curious about the world around you? Our guides are for smart global citizens, world travelers and engaged residents who want to gain a deeper understanding of the cultures and societies they care about.</p>
          <p class="about-guides__text-bottom"> Available as ebooks here and on Amazon.</p> 
          <h2 class="about-guides__info-sellers">Our best sellers</h2>
         </div>
-    </section>
+    </article>
 
-    <section class="container about-guides__block">
-        <div class="guide-french-culture__container">
-            <img class="guide-french-culture__icon" src="./imageGuides/Guide to French Culture.jpg" alt="Guide to French Culture">
-            <p class="guide-french-culture__info">Thalby Guide to French Culture and Heritage</p>
-            <p class="guide-french-culture__price">USD 6.99</p>
-            <a class="guide-french-culture__link" href="">Add to cart</a>
+    <section class="container sellers-guides">
+        <div class="sellers-guides__container">
+            <img class="sellers-guides__icon" src="./imageGuides/Guide to French Culture.jpg" alt="Guide to French Culture">
+            <p class="sellers-guides__info">Thalby Guide to French Culture and Heritage</p>
+            <p class="sellers-guides__price">USD 6.99</p>
+            <a class="sellers-guides__link" href="">Add to cart</a>
         </div>
 
-        <div class="guide-french-people__container">
-            <img class="guide-french-people__icon" src="./imageGuides/Guide to French People.jpg" alt="Guide to French People">
-            <p class="guide-french-people__info">Thalby Guide to French People and Society</p>
-            <p class="guide-french-people__price">USD 6.99</p>
-            <a class="guide-french-people__link" href="">Add to cart</a>
+        <div class="sellers-guides__container">
+            <img class="sellers-guides__icon" src="./imageGuides/Guide to French People.jpg" alt="Guide to French People">
+            <p class="sellers-guides__info">Thalby Guide to French People and Society</p>
+            <p class="sellers-guides__price">USD 6.99</p>
+            <a class="sellers-guides__link" href="">Add to cart</a>
         </div>
 
-        <div class="guide-german-culture__container">
-            <img class="guide-german-culture__icon" src="./imageGuides/Guide to German Culture.jpg" alt="Guide to German Culture.jpg">
-            <p class="guide-german-culture__info">Thalby Guide to German Culture and Heritage</p>
-            <p class="guide-german-culture__price">USD 6.99</p>
-            <a class="guide-german-culture__link" href="">Add to cart</a>
+        <div class="sellers-guides__container">
+            <img class="sellers-guides__icon" src="./imageGuides/Guide to German Culture.jpg" alt="Guide to German Culture.jpg">
+            <p class="sellers-guides__info">Thalby Guide to German Culture and Heritage</p>
+            <p class="sellers-guides__price">USD 6.99</p>
+            <a class="sellers-guides__link" href="">Add to cart</a>
         </div>
     </section>
 
     <section class="guide-french-people__decsribe">
-         <div class="guide-french-people__decsribe-container">
-           <img class="guide-french-people__decsribe-icon" src="./imageGuides/Guide to French People Decsribe.png" alt="Guide to French People Decsribe">
-            <div class="guide-french-people__text-block">
-            <h2 class="guide-french-people__title">People and Society</h2>
-            <p class="guide-french-people__text">Our guides to society deliver all the social insight you need, helping you understand how people live, love and play today and why communities are the way they are.</p>
-            <a href=" " class="guide-french-people__shop-link">Shop Society Guides</a>
-            </div>
-         </div>
-    </section>
-
-    <section class="guide-moroccan-culture__decsribe">
-        <div class="guide-moroccan-culture__decsribe-container">
-           <div class="guide-moroccan-culture__text-block">
-            <h2 class="guide-moroccan-culture__title">Culture and Heritage</h2>
-             <p class="guide-moroccan-culture__text">As well as covering heritage and tradition, our guides to culture introduce you to the designers, artists and chefs creating at the forefront of today's culture.</p>
-             <a href=" " class="guide-moroccan-culture__shop-link">Shop Culture Guides</a>
+        <div class="container guide-decsribe__container">
+          <img class="guide-french-people__decsribe-icon" src="./imageGuides/Guide to French People Decsribe.png" alt="Guide to French People Decsribe">
+           <div class="guide-french-people__text-block">
+           <h2 class="guide-french-people__title">People and Society</h2>
+           <p class="guide-french-people__text">Our guides to society deliver all the social insight you need, helping you understand how people live, love and play today and why communities are the way they are.</p>
+           <a href=" " class="guide-french-people__shop-link">Shop Society Guides</a>
            </div>
-           <img class="guide-moroccan-culture__decsribe-icon" src="./imageGuides/Guide to Moroccan Culture Decsribe.png" alt="Guide to Moroccan Culture Decsribe">
         </div>
    </section>
 
-   <section class="guide-german-power__decsribe">
-    <div class="guide-german-power__decsribe-container">
-      <img class="guide-german-power__decsribe-icon" src="./imageGuides/Guide to German Power Decsribe.png" alt="Guide to German Power Decsribe">
-       <div class="guide-german-power__text-block">
-       <h2 class="guide-german-power__title">People and Society</h2>
-       <p class="guide-german-power__text">Our guides to society deliver all the social insight you need, helping you understand how people live, love and play today and why communities are the way they are.</p>
-       <a href=" " class="guide-german-power__shop-link">Shop Society Guides</a>
+   <section class="guide-moroccan-culture__decsribe">
+       <div class="container guide-decsribe__container">
+          <div class="guide-moroccan-culture__text-block">
+           <h2 class="guide-moroccan-culture__title">Culture and Heritage</h2>
+            <p class="guide-moroccan-culture__text">As well as covering heritage and tradition, our guides to culture introduce you to the designers, artists and chefs creating at the forefront of today's culture.</p>
+            <a href=" " class="guide-moroccan-culture__shop-link">Shop Culture Guides</a>
+          </div>
+          <img class="guide-moroccan-culture__decsribe-icon" src="./imageGuides/Guide to Moroccan Culture Decsribe.png" alt="Guide to Moroccan Culture Decsribe">
        </div>
-    </div>
+  </section>
+
+  <section class="guide-german-power__decsribe">
+   <div class="container guide-decsribe__container">
+     <img class="guide-german-power__decsribe-icon" src="./imageGuides/Guide to German Power Decsribe.png" alt="Guide to German Power Decsribe">
+      <div class="guide-german-power__text-block">
+      <h2 class="guide-german-power__title">People and Society</h2>
+      <p class="guide-german-power__text">Our guides to society deliver all the social insight you need, helping you understand how people live, love and play today and why communities are the way they are.</p>
+      <a href=" " class="guide-german-power__shop-link">Coming 2022!</a>
+      </div>
+   </div>
 </section>
 
 <section class="features">
@@ -172,33 +190,33 @@
         <a class="interviews__link" href="">Discover </a>
      </div>
 </section>
- 
+
 <footer class="footer">
-<div class="footer__social">
-    <img class="thalby-logo-footer" src="./imageFooter/thalby-logo-footer.svg" alt="thalby-logo-footer">
-    <div class="footer__social__icons">
-       <img class="facebook_link" src="./imageFooter/FB.svg" alt="FaceBook">
-       <img class="inst" src="./imageFooter/Inst.svg" alt="Inst">
-       <img class="twitter" src="./imageFooter/Tw.svg" alt="Twitter">
+    <section class="footer__info">   
+         <div class="footer__social">
+        <img class="thalby-logo-footer" src="./imageFooter/thalby-logo-footer.svg" alt="thalby-logo-footer">
+        <div class="footer__social__icons">
+           <img class="facebook_link" src="./imageFooter/FB.svg" alt="FaceBook">
+           <img class="inst" src="./imageFooter/Inst.svg" alt="Inst">
+           <img class="twitter" src="./imageFooter/Tw.svg" alt="Twitter">
+        </div>
     </div>
-</div>
-<p class="©">Thalby LLC © 2021</p>
-<div class="about__block" >
-    <a class="about__block__link about__title" href="">ABOUT</a>
-    <a class="about__block__link" href="">About Us</a>
-    <a class="about__block__link" href="">Privacy Policy</a>
-    <a class="about__block__link" href="">Terms and Conditions</a>
-    <a class="about__block__link" href="">Write for Us</a>
-</div>
-
-<div class="contact__block">
-    <p class="contact__title">CONTACT</p>
-    <a class="contact__link" href="">Email hi@thalby.com</a> 
-    <a class="contact__link" href="">Help</a> 
-</div>
-</footer>
-
-</main>
-   
+    <p class="©">Thalby LLC © 2021</p>
+    <div class="about__block" >
+        <a class="about__block__link about__title" href="">ABOUT</a>
+        <a class="about__block__link" href="">About Us</a>
+        <a class="about__block__link" href="">Privacy Policy</a>
+        <a class="about__block__link" href="">Terms and Conditions</a>
+        <a class="about__block__link" href="">Write for Us</a>
+    </div>
+    
+    <div class="contact__block">
+        <p class="contact__title">CONTACT</p>
+        <a class="contact__link" href="">Email hi@thalby.com</a> 
+        <a class="contact__link" href="">Help</a> 
+    </div>
+</section>
+    </footer>
+  </main>
 </body>
 </html>
