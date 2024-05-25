@@ -12,6 +12,31 @@
 <body>
   <header class="header">
     <div class="container header__container">
+
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#"> Shop</a></li>
+          <li><a class="menu__item" href="#">Collections</a></li>
+          <li><a class="menu__item" href="#">Try a Free Guide</a></li>
+          <li><a class="menu__item" href="#"> Stories</a></li>
+          <li class="menu__box__icons "><div class="menu__icons-wrapper">
+            <a href="/">
+              <img src="./imageThalby/headerIcons/InstIcon.svg" alt="inst" class="header__icon menu__item">
+            </a>
+            <a href="/">
+              <img src="./imageThalby/headerIcons/SearchIcon.svg" alt="seacrh" class="header__icon menu__item">
+            </a>
+            <a href="/">
+              <img src="./imageThalby/headerIcons/StoreIcon.svg" alt="store" class="header__icon menu__item">
+            </a>
+          </div></li>
+        </ul>
+      </div>
+
       <nav class="nav">
         <ul class="nav__list">
           <li>
@@ -91,35 +116,35 @@
         </div>
     </section>
 
-    <section class="guide-french-people__decsribe">
+    <section class="guide-french-people__decsribe decsribe">
         <div class="container guide-decsribe__container">
-          <img class="guide-french-people__decsribe-icon" src="./imageGuides/Guide to French People Decsribe.png" alt="Guide to French People Decsribe">
-           <div class="guide-french-people__text-block">
+          <img class="guide-decsribe__icon" src="./imageGuides/Guide to French People Decsribe.png" alt="Guide to French People Decsribe">
+           <div class="guide-french-people__text-block guide-describe__text-block">
            <h2 class="guide-french-people__title">People and Society</h2>
            <p class="guide-french-people__text">Our guides to society deliver all the social insight you need, helping you understand how people live, love and play today and why communities are the way they are.</p>
-           <a href=" " class="guide-french-people__shop-link">Shop Society Guides</a>
+           <a href=" " class="guide__shop-link">Shop Society Guides</a>
            </div>
         </div>
    </section>
 
-   <section class="guide-moroccan-culture__decsribe">
+   <section class="guide-moroccan-culture__decsribe decsribe">
        <div class="container guide-decsribe__container">
-          <div class="guide-moroccan-culture__text-block">
+          <div class="guide-moroccan-culture__text-block guide-describe__text-block">
            <h2 class="guide-moroccan-culture__title">Culture and Heritage</h2>
             <p class="guide-moroccan-culture__text">As well as covering heritage and tradition, our guides to culture introduce you to the designers, artists and chefs creating at the forefront of today's culture.</p>
-            <a href=" " class="guide-moroccan-culture__shop-link">Shop Culture Guides</a>
+            <a href=" " class="guide__shop-link">Shop Culture Guides</a>
           </div>
-          <img class="guide-moroccan-culture__decsribe-icon" src="./imageGuides/Guide to Moroccan Culture Decsribe.png" alt="Guide to Moroccan Culture Decsribe">
+          <img class="guide-decsribe__icon" src="./imageGuides/Guide to Moroccan Culture Decsribe.png" alt="Guide to Moroccan Culture Decsribe">
        </div>
   </section>
 
-  <section class="guide-german-power__decsribe">
+  <section class="guide-german-power__decsribe decsribe">
    <div class="container guide-decsribe__container">
-     <img class="guide-german-power__decsribe-icon" src="./imageGuides/Guide to German Power Decsribe.png" alt="Guide to German Power Decsribe">
-      <div class="guide-german-power__text-block">
+     <img class="guide-decsribe__icon" src="./imageGuides/Guide to German Power Decsribe.png" alt="Guide to German Power Decsribe">
+      <div class="guide-german-power__text-block guide-describe__text-block">
       <h2 class="guide-german-power__title">People and Society</h2>
       <p class="guide-german-power__text">Our guides to society deliver all the social insight you need, helping you understand how people live, love and play today and why communities are the way they are.</p>
-      <a href=" " class="guide-german-power__shop-link">Coming 2022!</a>
+      <a href=" " class="guide__shop-link">Coming 2022!</a>
       </div>
    </div>
 </section>
@@ -128,8 +153,8 @@
     <div class="features__container">
      <div class="features__title-container">
         <h3 class="features__title">Some of the features that<br>make Thalby guides unique</h3>
-        <section class="unique">
 
+        <section class=" unique">
              <div class="unique__container">
                   <div class="circle written__circle"></div>
                   <p class="unique__text">Written by<br>locals</p>
@@ -191,6 +216,31 @@
      </div>
 </section>
 
+<section class="form__section">
+  <div class="form__wrapper">
+    <div class="form__title">
+      <h4 class="form__title__top">Keep in touch</h4>
+      <h5 class="form__title__bottom">Get our travel advice, global views and travel freebies in your<br> inbox</h5>
+    </div>
+    <div class="form__block">
+   <form class="form">
+    <div class="form__name">
+     
+      <input type="text" placeholder="  First Name" id="input__text">
+      <input type="text" placeholder="  Last Name" id="input__text">
+    </div>
+      <input type="email" placeholder="  Email" id="input__email">
+
+      <input type="submit" value="Subscribe" id="submit">
+    
+    </form>
+    </div>
+
+  </div>
+
+
+</section>
+
 <footer class="footer">
     <section class="footer__info">   
          <div class="footer__social">
@@ -201,7 +251,7 @@
            <img class="twitter" src="./imageFooter/Tw.svg" alt="Twitter">
         </div>
     </div>
-    <p class="©">Thalby LLC © 2021</p>
+    
     <div class="about__block" >
         <a class="about__block__link about__title" href="">ABOUT</a>
         <a class="about__block__link" href="">About Us</a>
@@ -216,6 +266,7 @@
         <a class="contact__link" href="">Help</a> 
     </div>
 </section>
+<p class="©">Thalby LLC © 2021</p>
     </footer>
   </main>
 </body>
